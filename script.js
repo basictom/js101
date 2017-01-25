@@ -40,3 +40,6 @@ console.log(newSonnet);
 var newerSonnet = newSonnet.replace(/the/g, 'a large');
 console.log(newerSonnet);
 // 7.Set the content of the sonnet div with the new string
+var sonnet = newerSonnet;
+var newContent = document.getElementById("sonnet");
+element.innerHTML = sonnet;
